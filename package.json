@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "dataform": {
     "defaultSchema": "dataform"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
   }
 }
