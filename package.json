@@ -1,0 +1,7 @@
+{
+  "name": "dataform-macro",
+  "version": "1.0.0",
+  "dataform": {
+    "defaultSchema": "dataform"
+  }
+}
