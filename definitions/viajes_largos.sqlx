@@ -7,11 +7,7 @@ config {
 
 -- El SELECT statement que define el contenido de nuestra tabla
 SELECT
-  trip_id,
-  subscriber_type,
-  start_station_name,
-  end_station_name,
-  duration_minutes
+  id_campania, nombre_campania, tipo_canal, fecha_inicio, fecha_fin, costo_campania
 FROM
   -- La función ref() es la clave de Dataform.
   -- Le dice que este modelo depende de la fuente 'bikeshare_trips' que declaramos antes.
