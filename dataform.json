@@ -1,0 +1,7 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "mferraro-sbox-465214",
+  "defaultLocation": "us-east1"
+}
