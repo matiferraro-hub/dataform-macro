@@ -17,4 +17,4 @@ FROM
   -- Le dice que este modelo depende de la fuente 'bikeshare_trips' que declaramos antes.
   ${ref("campanias_marketing")}
 WHERE
-  duration_minutes > 60
+  tipo_canal "Email"
