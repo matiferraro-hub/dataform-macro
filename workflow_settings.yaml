@@ -1,0 +1,4 @@
+project-config:
+  default-database: mferraro-sbox-465214
+  default-schema: dataform
+  assertion-schema: dataform_assertions
