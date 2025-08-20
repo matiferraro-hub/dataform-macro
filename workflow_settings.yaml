@@ -1,6 +1,5 @@
-# Agregamos la clave principal 'project-config'
+# Las claves deben estar en kebab-case
 project-config:
-  defaultProject: mferraro-sbox-465214
-  defaultDataset: dataform
-  defaultAssertionDataset: dataform_assertions
-  dataformCoreVersion: 3.0.26
+  default-database: mferraro-sbox-465214
+  default-schema: dataform
+  assertion-schema: dataform_assertions
