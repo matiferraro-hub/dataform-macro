@@ -1,4 +1,6 @@
-defaultProject: mferraro-sbox-465214
-defaultDataset: dataform
-defaultAssertionDataset: dataform_assertions
-dataformCoreVersion: 3.0.26
+# Agregamos la clave principal 'project-config'
+project-config:
+  defaultProject: mferraro-sbox-465214
+  defaultDataset: dataform
+  defaultAssertionDataset: dataform_assertions
+  dataformCoreVersion: 3.0.26
