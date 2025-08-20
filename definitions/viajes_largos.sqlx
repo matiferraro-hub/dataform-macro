@@ -1,0 +1,20 @@
+-- Archivo: definitions/viajes_largos.sqlx
+
+-- Configuración para crear una nueva tabla
+config {
+  type: "table"
+}
+
+-- El SELECT statement que define el contenido de nuestra tabla
+SELECT
+  trip_id,
+  subscriber_type,
+  start_station_name,
+  end_station_name,
+  duration_minutes
+FROM
+  -- La función ref() es la clave de Dataform.
+  -- Le dice que este modelo depende de la fuente 'bikeshare_trips' que declaramos antes.
+  ${ref("bikeshare_trips")}
+WHERE
+  duration_minutes > 60
