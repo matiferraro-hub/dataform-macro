@@ -15,6 +15,6 @@ SELECT
 FROM
   -- La función ref() es la clave de Dataform.
   -- Le dice que este modelo depende de la fuente 'bikeshare_trips' que declaramos antes.
-  ${ref("bikeshare_trips")}
+  ${ref("campanias_marketing")}
 WHERE
   duration_minutes > 60
